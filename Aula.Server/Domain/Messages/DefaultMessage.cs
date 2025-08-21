@@ -16,7 +16,7 @@ internal class DefaultMessage : Message
 		Snowflake? authorId,
 		Snowflake roomId,
 		String text)
-		: base(id, MessageType.Default, flags, authorId, roomId)
+		: base(id, MessageType.Default, flags, MessageAuthorType.User, authorId, roomId)
 	{
 		Text = text;
 	}

@@ -14,12 +14,14 @@ internal abstract class Message : DomainEntity
 		Snowflake id,
 		MessageType type,
 		MessageFlags flags,
+		MessageAuthorType authorType,
 		Snowflake? authorId,
 		Snowflake roomId)
 	{
 		Id = id;
 		Type = type;
 		Flags = flags;
+		AuthorType = authorType;
 		AuthorId = authorId;
 		RoomId = roomId;
 		CreationDate = DateTime.UtcNow;

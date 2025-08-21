@@ -12,7 +12,7 @@ internal class UserJoinMessage : Message
 		Snowflake? authorId,
 		Snowflake roomId,
 		MessageUserJoin joinData)
-		: base(id, MessageType.UserJoin, flags, authorId, roomId)
+		: base(id, MessageType.UserJoin, flags, MessageAuthorType.System, authorId, roomId)
 	{
 		JoinData = joinData;
 	}

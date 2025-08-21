@@ -12,7 +12,7 @@ internal class UserLeaveMessage : Message
 		Snowflake? authorId,
 		Snowflake roomId,
 		MessageUserLeave leaveData)
-		: base(id, MessageType.UserLeave, flags, authorId, roomId)
+		: base(id, MessageType.UserLeave, flags, MessageAuthorType.System, authorId, roomId)
 	{
 		LeaveData = leaveData;
 	}
