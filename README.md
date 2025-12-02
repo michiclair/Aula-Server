@@ -27,7 +27,7 @@ However, you can consult the server source code to understand their functionalit
 
 Also available is the following client library,
 which serves as a helpful reference for understanding the API structure
-and client-side usage: [aula.js – Official JavaScript Client](https://github.com/michironoaware/aula.js)
+and client-side usage: [aula.js – Official JavaScript Client](https://github.com/michiclair/aula.js)
 
 ## Installation, Configuration, and Execution
 
@@ -184,10 +184,10 @@ helping create a more immersive atmosphere.
 ### Official Interface
 
 An official web interface inspired by the aesthetic of the novel [ESC](https://store.steampowered.com/app/1318800/ESC/)
-is available at: [https://michironoaware.github.io/ENTER/](https://michironoaware.github.io/ENTER/)
+is available at: [https://michironoaware.github.io/ENTER/](https://michiclair.github.io/ENTER/)
 
 > Note: If you are developing your own client or exploring server interaction,
-> we recommend checking [aula.js](https://github.com/michironoaware/aula.js),
+> we recommend checking [aula.js](https://github.com/michiclair/aula.js),
 > a client library that acts as live documentation for the APIs.
 
 ## Foundations and Extra Information
