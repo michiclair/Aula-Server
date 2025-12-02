@@ -213,10 +213,3 @@ If you want to collaborate, you can:
 Please note the project currently lacks comprehensive integration tests,
 so contributions in this area are especially appreciated.
 Any feedback or contributions are welcome and help improve the project.
-
-## Contact
-
-For questions, comments, or support, you can reach me via:
-
-* Discord: [Aula Server](https://discord.gg/NK7p7Enbn5)
-* GitHub: [@michironoaware](https://github.com/michironoaware)
